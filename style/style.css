@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 5px solid black;
+}
+
+.initialNav a {
+    color: black;
+    font-weight: bold;
+}
+
+.registerBtn {
+    background-color: #415b9c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.registerBtn a {
+    color: white;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item .dropdown-menu {
+    display: none;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-link {
+    margin: auto;
+}
+
+.firstBlock {
+    background-image: linear-gradient(#1c2d4e, #415b9c);
+    color: white;
+}
+
+.secondBlock {
+    background-image: linear-gradient(#51bcc4, #8fd0dc);
+    color: white;
+}
+
+.thirdBlock {
+    background-image: linear-gradient(#415b9c, #7291ca);
+    color: white;
+}
